@@ -12,7 +12,6 @@
 - [x] Nth blog will be received from (object of array) in json.
 - [x] On every refresh the blogs order should change
 - [x] Blog page UI should be responsive.
-- [x] Create Typography components for H1, H2, Paragraph
 - [x] Submit the task in GitHub repo.
 - [x] GitHub repo must have readme with details of task.
 - [x] Add screen recording of blogger app in readme file.
@@ -30,6 +29,12 @@ npm start
 ```
 
 ## Assignment Website Video
+
+
+
+https://github.com/mustafapanjiwala/appsdeployer-react-assignment/assets/56435815/38e9e3bf-e10b-478f-9920-5c516990e794
+
+
 
 ## Author
 
