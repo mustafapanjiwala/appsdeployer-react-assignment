@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "First Blog",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "title": "Second Blog",
+    "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

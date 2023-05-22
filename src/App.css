@@ -1,38 +1,112 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+.app {
   text-align: center;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  background-color: aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blog-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.blog-title {
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-content {
+  margin-bottom: 0;
+}
+.blog-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.blog-content {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.blog-category {
+  font-size: 14px;
+  color: #fff;
+  background-color: cornflowerblue;
+  width: fit-content;
+  border-radius: 3px;
+  padding: 5px;
+}
+.category-filter {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-filter label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.category-filter select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.category-filter select:focus {
+  outline: none;
+  border-color: #4c9aff;
+}
+
+.category-filter select option {
+  font-size: 16px;
+}
+.blog-page {
+  text-align: center;
+  padding: 20px;
+}
+.blog-page-image {
+  width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.back-button button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4c9aff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.back-button button:hover {
+  background-color: #2372b8;
 }
